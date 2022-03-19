@@ -25,6 +25,8 @@ public class CallRestWebService {
 	//public static final String endpoint = "https://httpbin.org/get";
 	public static void main(String[] args) {
 	// secind commit //
+		// ws-management commit//
+	
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
